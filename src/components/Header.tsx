@@ -17,7 +17,7 @@ const Header = () => {
                 <div className={"hidden xl:flex items-center gap-8"}>
                     <Nav/>
                     <Link href={"/contact"}>
-                        <Button className={"bg-accent text-primary rounded-full tracking-[2px]"}>Hire me</Button>
+                        <Button className={"bg-accent text-primary rounded-full tracking-[2px] hover:bg-primary hover:border-2 hover:border-accent hover:text-accent"}>Hire me</Button>
                     </Link>
                 </div>
                 {/*Mobile nav*/}
