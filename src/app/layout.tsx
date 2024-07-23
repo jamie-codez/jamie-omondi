@@ -14,7 +14,7 @@ const jetBrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
     title: "Jamie Omondi",
-    description: "Jamie Omondi's personal website",
+    description: "Jamie Omondi's portfolio website",
 };
 
 interface Props {
@@ -24,7 +24,7 @@ interface Props {
 const RootLayout:React.FC<Props>=({children}) =>{
     return (
         <html lang="en">
-            <body className={`${jetBrainsMono.variable} bg-primary text-white`}>
+            <body className={`${jetBrainsMono.variable} bg-primary min-h-screen text-white`}>
                 <Header />
                 <StairTransition/>
                 <PageTransition>{children}</PageTransition>

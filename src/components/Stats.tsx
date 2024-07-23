@@ -21,7 +21,7 @@ const stats = [
         icon: <PanelsTopLeft/>
     },
     {
-        num: 5000,
+        num: 3000,
         text: "Code commits",
         icon: <GitCommit/>
     },

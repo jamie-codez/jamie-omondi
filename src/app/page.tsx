@@ -14,7 +14,7 @@ const Home = () => {
                         <span className={"text-xl"}>Software Engineer</span>
                         <h1 className={"h1 mb-6"}>Hello, I'm <br/><span className={"text-accent"}>Jamie Omondi</span></h1>
                         <p className={"max-w-[500px] mb-9 text-white/80"}>
-                            I'm a software engineer based in Nairobi, Kenya. I specialize in building and designing web applications. I'm passionate about building software that is scalable,
+                            I'm a software engineer based in Nairobi, Kenya. I specialize in building web and mobile applications. I'm passionate about building software that is scalable,
                             maintainable, and user-friendly. I am proficient in various programming languages and technologies.
                         </p>
                     {/*  Buttons and socials  */}

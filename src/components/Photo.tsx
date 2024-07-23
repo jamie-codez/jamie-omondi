@@ -20,7 +20,7 @@ const Photo = () => {
                         transition: {delay: 2.4, duration: 0.4, ease: "easeInOut"},
                     }}
                     className={"w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"}>
-                    <Image src={"/assets/jamie.png"} alt={""} priority={true} fill={true} quality={100} className={"object-contain rounded-b-full"} layout={"fill"}/>
+                    <Image src={"/assets/jamie.png"} alt={""} priority={true} fill={true} quality={100} className={"object-contain rounded-b-full"}/>
                 </motion.div>
                 {/*  Circle  */}
                 <motion.svg
